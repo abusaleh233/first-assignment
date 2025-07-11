@@ -1,22 +1,20 @@
-/*text primary color*/
-.raleway-btnfont {
+body{
+    background-color: #F5F8FF;
+}
+/*text primary btncolor*/
+.raleway-btnfont{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
 
-
-
-
 /* Nab style */
-
 nav{
     display:flex;
     align-items:center;
     justify-content: space-between;
     margin:50px 200px;
-
 }
 
 .logo-title{
@@ -36,14 +34,136 @@ nav{
     font-size: 65px;
     max-width: 905px;
     text-align: center;
+    margin:auto;
     display:block;
-
+    justify-content: center;
+    padding-top:330px;
 }
 .header{
     background-image: url('../Assets/Hero-bg.png');
     background-repeat:no-repeat;
     height: 698px;
-    width:1440px;
+    width:1340px;
+}
+.stay-btn{
+    margin:auto;
+    text-align: center;
+    display:block;
+    padding-top:36px;
+    
+}
+/*main section*/
+main{
+    max-width: 1140px;
+    margin:0 auto;
+   
 
 }
 
+.action-Section{
+    padding-top:50px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 0 100px 0;
+    width:1140px;
+    height:328px;
+}
+
+.title{
+    font-size: 42px;
+    font-weight:800px;
+    padding-bottom: 20px;
+}
+.sub-title{
+    font-size: 14px;
+    font-weight:100px;
+    padding-bottom: 20px;
+    color:#A9A9A9;
+}
+.right-side{
+    width:403px;
+    height:328px;
+    border-radius:48px;
+}
+.section-title{
+    font-size:38px;
+    font-weight:bold;
+    color:#252432;
+    margin-bottom: 4px;
+}
+.section-bgcolor{
+    background-color:#E5E7FF;
+    border-radius: 24px;
+    padding: 20px 50px;
+    text-align: center;
+    margin:0 0px 0 20px;
+}
+.productive-items{
+    display:flex;
+    justify-content:space-around;
+}
+.item-title{
+    font-size:80px;
+    font-weight:800px;
+    color:#4E47FF;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+.item-description{
+    color:#8F909F;
+    font-size:20px;
+    margin-top: 0px;
+}
+.text-center{
+    text-align:center;
+}
+.section-usertitle{
+    font-size: 42px;
+    font-weight: bold;
+}
+.user-contenar{
+    display:flex;
+    gap:24px;
+    padding:24px;
+}
+.user-rating{
+    box-shadow: 0px 6px 10px 0px black ;
+    border-radius: 14px;
+    padding:30px;
+    
+}
+.user-image{
+    display:flex;
+}
+.reviewed-padding{
+    padding-left: 10px;
+}
+.date-color{
+    color:#8F909F;
+}
+.Loved-by-Designers{
+    padding-top:20px;
+    padding-bottom: 0px;
+}
+
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.form-section{
+    display:flex;
+    padding: 71px 100px;
+    justify-content: space-between;
+}
+input[type="text"],input[type="email"],textarea{
+    height:50px;
+    width:100%;
+    border-radius: 10px;
+    padding:10px 20px;
+    margin-bottom: 10px;
+    border:none;
+
+}
+.sub-btn{
+    width: 400px;
+}
